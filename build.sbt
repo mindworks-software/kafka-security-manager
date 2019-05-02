@@ -57,7 +57,7 @@ mainClass in Compile := Some("com.github.simplesteph.ksm.KafkaSecurityManager")
 parallelExecution in Test := false
 
 // Docker stuff
-dockerRepository := Some("simplesteph")
+dockerRepository := Some("mindworks-software")
 dockerUpdateLatest := true
 dockerBaseImage := "openjdk:8-jre-slim"
 
